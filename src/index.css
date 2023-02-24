@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 10px 50px;
+  background-color: rgb(225, 215, 250);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.active {
+  color: green;
+  text-decoration: underline;
+}
