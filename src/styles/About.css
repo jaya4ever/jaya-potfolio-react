@@ -1,0 +1,28 @@
+.about_page{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.about_page h1{
+    padding:15px 0;
+    width: 300px;
+    text-align: center;
+
+}
+.about_page img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.aboutme{
+    font-style: italic;
+    font-weight: 300;
+   /* padding: 40px;*/
+    width: 100%;
+    font-size: 30px;
+   margin-top: 15px;
+
+}
+
