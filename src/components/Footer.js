@@ -1,6 +1,5 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
-import { FaInstagram } from "react-icons/fa";
 import { SlSocialTwitter } from "react-icons/sl";
 import { IoLogoLinkedin } from "react-icons/io";
 import "../styles/Footer.css";
@@ -32,13 +31,7 @@ function Footer() {
         >
           <IoLogoLinkedin />
         </a>
-        <a
-          href="https://www.instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          < FaInstagram />
-        </a>
+        
       </p>
     </footer>
   );
