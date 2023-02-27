@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 function Header() {
     return (
         <div className="header">
-            <h1>My Portfolio</h1>
+            <h1 className='logo'>Jaya Singh</h1>
             <Navbar />
         </div>
     )

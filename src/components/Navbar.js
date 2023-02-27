@@ -1,32 +1,25 @@
-import React, { useEffect, useState } from "react";
-import {NavLink , useLocation} from 'react-router-dom';
-import {IoIosReorder} from "react-icons/io";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-function Navbar() {
-  const [expandNavbar, setExpandNavbar] = useState(false);
-  const location = useLocation();
 
-  useEffect(() => {
-    setExpandNavbar(false);
-  }, [location]);
+function Navigation() {
 
   return (
-    <div className="navbar" id={expandNavbar ? "open" : "close"}>
-      <div className='toggleButton'>
-        <button
-        onClick={() => {
-          setExpandNavbar((prev) => !prev);
-        }}
-       >
-        <IoIosReorder />
-       </button>
-       </div>
-        <NavLink to="/">About me</NavLink>
-        <NavLink to="/portfolio">Portfolio</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-        <NavLink to="/resume">Resume</NavLink>
-    </div>
+    <Navbar  expand="lg">
+    <Container> 
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="me-auto">
+          <Nav.Link href="/">About</Nav.Link>
+          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
+          <Nav.Link href="/resume">Resume</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
   )
 }
 
-export default Navbar
+export default Navigation
