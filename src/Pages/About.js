@@ -1,7 +1,5 @@
 import React from 'react'
-import { AiFillGithub } from "react-icons/ai";
-import { SlSocialTwitter } from "react-icons/sl";
-import { IoLogoLinkedin } from "react-icons/io";
+
 import "../styles/About.css";
 import profilepic from '../assets/img/profilepic.png';
 
@@ -14,9 +12,7 @@ function About() {
       <p className="aboutme">
       Hi, my Name is Jaya Singh. I am a full Stack Web Developer.
       </p>
-      < AiFillGithub />
-      <SlSocialTwitter />
-      <IoLogoLinkedin />
+     
       <div className="skills">
       <h1> My Skills</h1>
         <ol className="list">
