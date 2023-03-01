@@ -16,26 +16,24 @@ function About() {
                  <p><a href="https://www.linkedin.com/in/jaya-singh-9aa606133/" target="_blank"
                 rel="noopener noreferrer">https://www.linkedin.com/in/jaya-singh-9aa606133/</a></p>
                 </p>
-     
-     
-      <div className="skills">
-      <h1> My Skills</h1>
+     <div className="skills">
+      <h2> My Skills</h2>
         <ol className="list">
           <li className="item">
-            <h2> Front-End</h2>
+            <h3> Front-End</h3>
             <span>
               ReactJS, HTML, CSS, BootStrap,JavaScript
             </span>
             </li>
           <li className="item">
-            <h2>Back-End</h2>
+            <h3>Back-End</h3>
             <span>
               NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB, Terraform
              
             </span>
           </li>
           <li className="item">
-            <h2>Languages</h2>
+            <h3>Languages</h3>
             <span>JavaScript, PowerShell, C++, Python 3</span>
           </li>
         </ol>

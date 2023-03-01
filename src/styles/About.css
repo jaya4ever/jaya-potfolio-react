@@ -42,9 +42,15 @@
    
   }
   
-  .skills h1 {
-    color: #dee0ea;
+  .skills h2 {
+    color: blue;
     text-decoration: underline;
+
+  }
+  .skills h3{
+    color:white;
+    text-decoration: underline;
+    font-size: 25px;
   }
   
   .skills .list {
@@ -53,6 +59,6 @@
   }
   
   .list span {
-    font-size: 20px;
+    font-size: 15px;
   }
 

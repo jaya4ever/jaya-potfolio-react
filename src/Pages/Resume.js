@@ -24,7 +24,7 @@ function Resume() {
           <h2 className="top-title">Jaya Singh</h2>
 
           <li className="name_me">
-            Full Stack Web Developer
+            Full Stack Web Developer. <p>check my Linkedin</p>
           </li>
           <a className="linkedin"
          href="https://www.linkedin.com/in/jaya-singh-9aa606133/" 
