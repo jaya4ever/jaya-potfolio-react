@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer">
       <p>
         <a
-          href="https://github.com"
+          href="https://github.com/jaya4ever"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -17,7 +17,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://twitter.com"
+          href="https://twitter.com/home"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -25,7 +25,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/jaya-singh-9aa606133/"
           target="_blank"
           rel="noopener noreferrer"
         >
