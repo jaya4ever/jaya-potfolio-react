@@ -40,7 +40,7 @@ function Resume() {
           </li>
           <li className="item">
             <h3>Languages</h3>
-            <span>JavaScript, PowerShell, C++, Python 3</span>
+            <span>JavaScript, PowerShell, C#, Python 3</span>
           </li>
         </ol>
         <p className="myself">Please check my linkedin</p>
