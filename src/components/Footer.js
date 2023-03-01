@@ -31,7 +31,7 @@ function Footer() {
         >
           <IoLogoLinkedin />
         </a>
-        
+
       </p>
     </footer>
   );

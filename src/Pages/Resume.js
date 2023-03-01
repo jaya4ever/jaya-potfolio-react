@@ -16,36 +16,45 @@ function Resume() {
   }
   return (
     <section class="container">
-      <h2 className="top-title">Download My Resume</h2>
+      <h2 className="top-title">Download Jaya Singh Resume</h2>
       <button class="teal" onClick={downLoad}>Download Resume</button>
       <hr></hr>
       <div>
-        <div class="mt-5">
-          <h2 className="top-title">Jaya Singh</h2>
 
-          <li className="name_me">
-            Full Stack Web Developer. <p>check my Linkedin</p>
+      </div>
+      <div className="skills">
+        <h2> My Skills</h2>
+        <ol className="list">
+          <li className="item">
+            <h3> Front-End</h3>
+            <span>
+              ReactJS, HTML, CSS, BootStrap,JavaScript
+            </span>
           </li>
-          <a className="linkedin"
-         href="https://www.linkedin.com/in/jaya-singh-9aa606133/" 
+          <li className="item">
+            <h3>Back-End</h3>
+            <span>
+              NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB, Terraform
+
+            </span>
+          </li>
+          <li className="item">
+            <h3>Languages</h3>
+            <span>JavaScript, PowerShell, C++, Python 3</span>
+          </li>
+        </ol>
+        <p className="myself">Please check my linkedin</p>
+        <a className="linkedin"
+          href="https://www.linkedin.com/in/jaya-singh-9aa606133/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <IoLogoLinkedin />
         </a>
       </div>
-      </div>
-      <div class="justify-content-center mt-5">
-        <div>
-          <h2 className="experience">Experience</h2>
-          <ul>
-            <li className="language">
-              HTML, CSS, JavaScript, jQuery, React.js, IndexedDB,
-              Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs.
-            </li>
-          </ul>
-        </div>
-      </div>
+
+
+
     </section>
   );
 }
