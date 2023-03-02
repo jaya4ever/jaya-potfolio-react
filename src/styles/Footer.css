@@ -12,3 +12,12 @@
   display: flex;
   gap: 30px;
  }
+
+ @media only screen 
+ and (device-width : 325px) 
+ and (device-height : 480px) 
+ and (-webkit-device-pixel-ratio : 2) { 
+  .footer svg{
+       font-size: 30px;
+      }
+ }

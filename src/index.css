@@ -76,6 +76,15 @@ main {
   background-color: #9989c7;
 }
 
+@media only screen 
+and (device-width : 325px) 
+and (device-height : 480px) 
+and (-webkit-device-pixel-ratio : 3) { 
+ .project img{
+      font-size: 30px;
+     }
+}
+
 .project {
   
   width: 32%;

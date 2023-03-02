@@ -28,7 +28,7 @@
     font-weight: 300;
    /* padding: 40px;*/
     width: 100%;
-    font-size: 30px;
+    font-size: 20px;
    margin-top: 10px;
 
 }
@@ -41,4 +41,13 @@
     align-items: center;
    
   }
+  @media only screen 
+  and (device-width : 325px) 
+  and (device-height : 480px) 
+  and (-webkit-device-pixel-ratio : 2) { 
+   .about_page{
+        font-size: 20px;
+       }
+  }
+   
   

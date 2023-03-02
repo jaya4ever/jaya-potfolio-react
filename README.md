@@ -18,19 +18,19 @@
 [Portfolio.webm](https://user-images.githubusercontent.com/111536082/222263166-e5ef4217-49c1-4a2f-b7e2-a0fe33748aa8.webm)
 
 ### Showing Responsive video of my Portfolio
-[responsive.webm](https://user-images.githubusercontent.com/111536082/222264301-11cf7afa-a54e-4acc-a2d2-c8206deee1bb.webm)
+[responsivePortfolioVideo.webm](https://user-images.githubusercontent.com/111536082/222578038-455f2f46-284b-4bcf-b134-fd7985db19b6.webm)
 
 ### Screenshot of my About Page
-![about](https://user-images.githubusercontent.com/111536082/222265296-252a8a0a-970d-405e-a2ae-1b70a3ef86af.jpeg)
+![aboutpage](https://user-images.githubusercontent.com/111536082/222577634-51b4c4ad-9077-4377-8c2f-80fc47636d57.jpeg)
 
 ### Screenshot of my Portfolio Page
-![portfolio](https://user-images.githubusercontent.com/111536082/222265383-981a5457-550a-4bf1-8a65-ce1d59127788.jpeg)
-
+![projectpage](https://user-images.githubusercontent.com/111536082/222577713-eae3f8fa-e390-497b-8951-5506bb18bf11.jpeg)
 ### Screenshot of my Contact Page
-![contact](https://user-images.githubusercontent.com/111536082/222265453-ab185927-aad2-4517-8937-187e235fa81b.jpeg)
+![contactpage](https://user-images.githubusercontent.com/111536082/222577887-dcc3e9f9-1594-4931-8337-3dc81845e922.jpeg)
 
 ### Screenshot of my Resume Page
-![resume](https://user-images.githubusercontent.com/111536082/222265498-6c44540a-7484-4654-80ad-ca72b0eda125.jpeg)
+![resumepage](https://user-images.githubusercontent.com/111536082/222577947-905cb190-6a71-40af-afda-a838c83e2ebd.jpeg)
+
 
 ## User Story
 
