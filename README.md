@@ -9,8 +9,10 @@
 * Video of my Portfolio
 * Screenshots of my Portfolio
 ### My GitHub Repository
+[GitHub](https://github.com/jaya4ever/jaya-singh-portfolio)
 
 ### My GitHUB Deployed Page
+[GitHubPage](https://jaya4ever.github.io/jaya-singh-portfolio/)
 
 ### This is the video of my Portfolio
 [Portfolio.webm](https://user-images.githubusercontent.com/111536082/222263166-e5ef4217-49c1-4a2f-b7e2-a0fe33748aa8.webm)
