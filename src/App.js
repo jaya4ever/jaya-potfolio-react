@@ -1,4 +1,4 @@
-import {Routes, Route} from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
@@ -13,20 +13,29 @@ import './App.css'
 
 function App() {
   return (
-   <div> 
-    <Header/>
-    <main>
-    <Routes>
-      <Route path='/' element={<About/>}/>
-      <Route path='/portfolio' element={<Portfolio/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-      <Route path='/resume' element={<Resume/>}/>
-    </Routes>
-    </main>
-    <Footer/>
-   </div> 
+    <div>
+      <Header />
+      <main>
+        <Switch>
 
-    );
+          <Route path='/portfolio'>
+            <Portfolio />
+          </Route>
+          <Route path='/contact' >
+            <Contact />
+          </Route>
+          <Route path='/resume' >
+            <Resume />
+          </Route>
+          <Route path='/'>
+            <About />
+          </Route>
+        </Switch>
+      </main>
+      <Footer />
+    </div>
+
+  );
 }
 
 export default App;
