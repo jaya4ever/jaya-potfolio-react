@@ -1,4 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
+import { useState } from 'react';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
@@ -12,30 +12,32 @@ import './App.css'
 
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('About')
+
+  const renderPage = () => {
+    if (currentPage === 'about') {
+      return <About />;
+    }
+    if (currentPage === 'portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'contact') {
+      return <Contact />;
+    }
+    return <Resume />;
+  };
+  
   return (
-    <div>
-      <Header />
-      <main>
-        <Switch>
+   <div> 
+    <Header navigate={setCurrentPage}/>
+    <main>
+    {renderPage()}
+   
+    </main>
+    <Footer/>
+   </div> 
 
-          <Route path='/portfolio'>
-            <Portfolio />
-          </Route>
-          <Route path='/contact' >
-            <Contact />
-          </Route>
-          <Route path='/resume' >
-            <Resume />
-          </Route>
-          <Route path='/'>
-            <About />
-          </Route>
-        </Switch>
-      </main>
-      <Footer />
-    </div>
-
-  );
+    );
 }
 
 export default App;
