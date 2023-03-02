@@ -12,7 +12,7 @@ import './App.css'
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('About')
+  const [currentPage, setCurrentPage] = useState('about')
 
   const renderPage = () => {
     if (currentPage === 'about') {
@@ -29,8 +29,8 @@ function App() {
   
   return (
    <div> 
-    <Header navigate={setCurrentPage}/>
-    <main>
+    <Header navigate={setCurrentPage} currentPage={currentPage}/>
+<main>
     {renderPage()}
    
     </main>

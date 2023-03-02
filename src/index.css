@@ -57,9 +57,9 @@
   text-align: center;
 }
 
-.active {
-  color: green;
-  text-decoration: underline;
+.activelink {
+  color: green !important;
+  text-decoration: underline !important;
 }
 
 main {
