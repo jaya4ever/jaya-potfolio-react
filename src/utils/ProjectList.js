@@ -7,11 +7,11 @@ import proj6 from '../assets/img/proj6.jpeg';
 
 export const ProjectList = [
   {
-    name: "Work Day Scheduler",
+    name: "Hoodlinked",
     image: proj1,
-    skills: "JQuery,HTML,CSS",
-    url: "https://jaya4ever.github.io/work-day-schedular//",
-    github: "https://github.com/jaya4ever/work-day-schedular"
+    skills: "React, GraphQL, Node.js, Express.js, MongoDB, Mongoose, Chakra-UI",
+    url: "https://hoodlinked.herokuapp.com",
+    github: "https://github.com/hoodlinked/hoodlinked"
   },
   {
     name: "Weather Dashboard",

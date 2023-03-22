@@ -24,12 +24,13 @@
 }
 
 .aboutme{
-    font-style: italic;
+    font-style: oblique 40deg;
     font-weight: 300;
    /* padding: 40px;*/
     width: 100%;
     font-size: 20px;
    margin-top: 10px;
+   font-stretch: expanded;
 
 }
 .skills {
